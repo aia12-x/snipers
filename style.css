@@ -1,0 +1,222 @@
+#{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 60px;
+    z-index: 2;
+    background-color: azure;
+}
+.navbar .menu{
+
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.logo span{
+font-weight: normal;
+}
+.logo{
+    font-size: 18px;
+}
+.navbar ul{
+    display: flex;
+ list-style: none;
+    gap: 25px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.navbar ul li a:hover{
+    background-color:blueviolet;
+}
+.header{
+    background-image: url(header.jpg);
+    background -size:cover ;
+    height: 100vh;
+    position: relative;
+}
+.header h2{
+    position: absolute;
+    top:45%;
+    left: 45%;
+    color:white;
+    font-size: 40px;
+}
+.header h2 span{
+    background-color: black;
+    padding: 10px;
+    opacity: 0.5;
+    border-radius: 10px;
+
+}
+hr{
+    margin: 50px 0px;
+    opacity: 5.0px;
+}
+.homes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.homes .home{
+    width: 24%;
+    position: relative;
+}
+.homes .home img{
+    width: 100%;
+}
+.homes .home p{
+    background-color: black;
+    color:wheat;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+.about{
+    width: 90%;
+    margin:  100px auto;
+}
+.chars{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+.chars .char{
+    width: 24%;
+}
+.chars .char img{
+    width: 100%;
+}
+.chars .char > *{
+    margin-top:20px;
+}
+.chars .char h3{
+    font-size: 20px;
+}
+.chars .char h4{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.chars .char p{
+    line-height: 1.5;
+}
+.chars .char button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.chars .char button:hover{
+    background-color: aqua;
+}
+.contact form{
+    margin-top: 50px;
+}
+.contact form input{
+    width: 80%;
+    margin-top: 10px;
+    padding: 20px;
+    outline: none;
+}
+.contact form input::placeholder{
+    font-size: 16px;
+
+
+}
+.contact button{
+    margin-top: 30px;
+    padding: 18px;
+    font-size: 18px;
+    background-color: black;
+    color: beige;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+.contact button:hover{
+    background-color: green;
+    color: black;
+
+}
+.photo img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+@media screen and (max-width:450px) {
+ .navbar ul{
+    display: none;
+ }
+    .navbar menu{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
